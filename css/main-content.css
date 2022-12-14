@@ -1,0 +1,267 @@
+.main-content {
+    justify-content: center;
+    display: flex;
+    height: auto;
+   margin: 2vh 30px;
+}
+.filter-title{
+    margin: 15px 10px;
+    color: black;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.filtros-all{
+    margin-top: 20px;
+    width: 20%;
+    height: 90vh;
+}
+.shop-content{
+    margin: 5px;
+    height: auto;
+    width: 60%;
+}
+.quantidade{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 8vh;
+    justify-content: end;
+    border-bottom: 1px solid gainsboro;
+    height: 50px;
+    width:76%;
+}
+.quantidade button{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 0.7rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    height: 30px;
+    width: 150px;
+}
+.shoes-content{
+    margin: 3px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.shoes{
+    margin: 10px;
+    width: 200px;
+}
+
+.description h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+.description span{
+    
+    font-size: 0.7rem;
+    color: gray;
+}
+.description p{
+    font-weight: 700;
+    margin: 2px;
+    font-size: 15px;
+}
+
+.gender{
+    width: 200px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(14, 14, 14);
+}
+.gender h4{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.gender h4 i{
+    cursor: pointer;
+}
+.gender-none{
+   display: none;
+}
+.gender-none li{
+    margin: 3px;
+    list-style: none;
+}
+.gender-none li a{
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+}
+
+.inputXauto label{
+    color: rgb(39, 39, 39);
+    font-size: 0.7rem;
+    margin: 3px;
+    display: inline;
+}
+.inputXauto input{
+    color: rgb(39, 39, 39);
+    margin: 3px;
+    display:block;
+}
+ input[type="checkbox"]{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    width: 10px;
+    height: 10px;
+}
+.input-tamanhos{
+    display: none;
+    margin:10px ;
+    overflow-y: auto;
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.362);
+}
+.tamanho h4 i:hover{
+    cursor: pointer;
+}
+.tamanho h4{
+    width: 200px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+.category{
+    width: 200px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+.category-none li{
+    margin-left: 10px;
+   list-style: none;
+}
+.category-none li a{
+    color: rgb(60, 58, 58);
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.category-none {
+    display: none;
+}
+
+.category h4 i:hover{
+    cursor: pointer;
+}
+.category h4{
+     
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 0.7rem;
+}
+
+.colors-section{
+    overflow-y: auto;
+    height: 250px;
+}
+
+ input[type="search"]{
+    margin-left: 10px;
+    padding: 5px;
+    height: 18px;
+    border: 1px solid rgb(119, 119, 119);
+}
+.input-colors label, input{
+    font-size: 0.8rem;
+    display: block;
+}
+
+.colors{
+    display: none;
+}
+.input-colors{
+    margin: 10px;
+}
+.main-color h4 i:hover{
+    cursor: pointer;
+}
+.main-color h4{
+    width: 200px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+}
+.btn-none{
+    margin: 2px;
+    text-transform: uppercase;
+    border: none;
+    visibility: hidden;
+    cursor: pointer;
+    color: black;
+    width: 100px;
+    height: 25px;
+
+}
+.btn-comprar{
+    transition: 0.5ms;
+    margin:0 auto;
+    width: 120px;
+    height: 30px;
+    transform: translateY(130px);
+}
+
+.shoes:hover .btn-none{
+    transition: .4s;
+    visibility: visible;
+  
+}
+.btn-none:hover{
+    color: #fff;
+    background-color: black;
+}
+.buscados-hiden{
+    visibility: hidden;
+    background-color: #fff;
+    width: 120px;
+    top: 31vh;
+    right: 175px;
+    left: auto;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+}
+.buscados-hiden li{
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+}
+.buscados-hiden li a{
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.782);
+    text-decoration: none;
+}
+
+.buscados-hiden.visibile{
+    visibility: visible;
+    background-color: #fff;
+    width: 120px;
+    top: 31vh;
+    right: 175px;
+    left: auto;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+}
+.gender-none.active{
+    display: block;
+}
+.category-none.active{
+    display: block;
+}
+.input-tamanhos.active{
+    display: block;
+}
+.colors.active{
+    display: block;
+}
+.btn-mais-buscados{
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+}
